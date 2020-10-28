@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="user">
+        <menu >
+
+            <item
+                android:id="@+id/Home"
+                android:title="Home"
+                android:icon="@drawable/ic_android_black_24dp">
+            </item>
+            <item
+                android:id="@+id/battery"
+                android:title="Battery"
+                android:icon="@drawable/ic_android_black_24dp">
+            </item>
+            <item
+                android:id="@+id/android_version"
+                android:title="Android Version"
+                android:icon="@color/purple_200">
+            </item>
+            <item
+                android:id="@+id/model_no"
+                android:title="Model no."
+                android:icon="@drawable/ic_android_black_24dp">
+
+            </item>
+            <item
+                android:id="@+id/brand"
+                android:title="Brand."
+                android:icon="@drawable/ic_android_black_24dp">
+
+            </item>
+        </menu>
+
+
+    </item>
+</menu>
